@@ -6,7 +6,9 @@ const cities = require('./cities');
 
 const { places, descriptors } = require('./seedHelpers');
 
-mongoose.connect('mongodb://localhost:27017/yelp-camp', {
+const seedUrl = process.env.DB_URL;
+
+mongoose.connect(seedUrl, {
     useNewUrlParser: true,
     useCreateIndex: true,
     useUnifiedTopology: true
