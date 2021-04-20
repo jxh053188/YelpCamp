@@ -1,3 +1,5 @@
+
+
 gsap.registerPlugin(ScrollTrigger);
 let speed = 100;
 
@@ -226,6 +228,3 @@ else {
     fsEnter.innerHTML = "Go Fullscreen";
 }
 });
-
-
-Resources
