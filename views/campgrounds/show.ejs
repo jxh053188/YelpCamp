@@ -28,9 +28,6 @@
                     <% } %>
             </div>
             <div class="card mb-3">
-                <!-- <% for(let image of campground.images) { %>
-                    <img src="<%=image.url%>" class="card-img-top" alt="Campground Image">
-                    <% } %> -->
                 <div class="card-body">
                     <h5 class="card-title">
                         <%= campground.title %>
@@ -42,9 +39,6 @@
                 <ul class="list-group list-group-flush">
                     <li class="list-group-item">
                         <%= campground.location %>
-                    </li>
-                    <li class="list-group-item">
-                        Submitted by: <%=campground.author.username%>
                     </li>
                     <li class="list-group-item">
                         $<%=campground.price%>/night

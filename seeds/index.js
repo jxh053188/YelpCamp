@@ -6,7 +6,7 @@ const cities = require('./cities');
 
 const { places, descriptors } = require('./seedHelpers');
 
-const seedUrl = process.env.DB_URL;
+const seedUrl = "mongodb+srv://JarredAdmin:YP5wOlIOKveG836N@cluster0.wdgy9.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
 
 mongoose.connect(seedUrl, {
     useNewUrlParser: true,
